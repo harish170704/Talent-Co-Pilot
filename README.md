@@ -68,4 +68,31 @@ Talent Co-Pilot is designed **exactly** for her workflow.
 | Styling | Material UI |
 | AI Model | Google Gemini API |
 | Data Source | Local `data.json` file |
+
+
+## 🖼️ Example Recommendation Output
+
+When the user enters a project requirement like:
+
+> _"Need a Senior Python engineer with AWS experience to lead a data migration project."_
+
+The system might return:
+
+| Name | Role | Match Score | Reasoning | Growth Alignment |
+|------|------|-------------|-----------|-----------------|
+| **Ayesha Verma** | Senior Cloud Engineer | **92%** | Strong match on Python, AWS, CI/CD pipelines | Opportunity to mentor junior engineers, aligns with her career goal to lead teams |
+| **Rahul Sharma** | Data Engineer | **85%** | Skilled in Python + ETL + Airflow; partial AWS experience | Good stepping-stone toward Senior Cloud role |
+| **Priya Nair** | Machine Learning Engineer | **77%** | Python expert, moderate cloud exposure | Good stretch role for cloud upskilling |
+
+Each recommendation includes:
+- **Match score** (how closely their skills align)
+- **Why they fit** (key overlapping skills)
+- **Growth support** (respects employee aspirations)
+
+This ensures staffing decisions are:
+- **Transparent**
+- **Fair**
+- **Human-centered**
+
 ---
+
