@@ -1,0 +1,72 @@
+
+{
+  "users": [
+    { "id": "u1", "name": "Alice Johnson", "role": "Frontend Developer", "skills": ["React", "TypeScript", "CSS", "HTML"], "experience": 5, "interests": ["UX Design", "Web Accessibility", "GraphQL"] },
+    { "id": "u2", "name": "Bob Williams", "role": "Backend Developer", "skills": ["Node.js", "Python", "PostgreSQL", "Docker"], "experience": 8, "interests": ["DevOps", "Microservices", "Machine Learning"] },
+    { "id": "u3", "name": "Charlie Brown", "role": "UI/UX Designer", "skills": ["Figma", "Sketch", "Adobe XD", "User Research"], "experience": 4, "interests": ["Frontend Development", "Animation", "Branding"] },
+    { "id": "u4", "name": "Diana Prince", "role": "Project Manager", "skills": ["Agile", "Scrum", "Jira", "Communication"], "experience": 10, "interests": ["Product Strategy", "User Research", "Data Analysis"] },
+    { "id": "u5", "name": "Ethan Hunt", "role": "DevOps Engineer", "skills": ["AWS", "Kubernetes", "Terraform", "CI/CD"], "experience": 7, "interests": ["Cybersecurity", "Network Architecture", "Python"] },
+    { "id": "u6", "name": "Fiona Glenanne", "role": "QA Engineer", "skills": ["Selenium", "Cypress", "Jest", "Performance Testing"], "experience": 6, "interests": ["CI/CD", "DevOps", "Security Testing"] },
+    { "id": "u7", "name": "George Costanza", "role": "Data Scientist", "skills": ["Python", "Pandas", "TensorFlow", "SQL"], "experience": 5, "interests": ["Natural Language Processing", "Big Data", "React"] },
+    { "id": "u8", "name": "Hannah Montana", "role": "Mobile Developer", "skills": ["React Native", "Swift", "Kotlin", "Firebase"], "experience": 3, "interests": ["UI/UX Design", "Backend Development", "Product Management"] },
+    { "id": "u9", "name": "Ian Malcolm", "role": "Security Analyst", "skills": ["Cryptography", "Penetration Testing", "Network Security"], "experience": 9, "interests": ["Blockchain", "AI Ethics", "DevOps"] },
+    { "id": "u10", "name": "Jane Doe", "role": "Full-Stack Developer", "skills": ["React", "Node.js", "MongoDB", "GraphQL"], "experience": 7, "interests": ["DevOps", "Mobile Development", "Data Science"] },
+    { "id": "u11", "name": "Kevin McCallister", "role": "Junior Frontend Developer", "skills": ["HTML", "CSS", "JavaScript"], "experience": 1, "interests": ["React", "TypeScript", "Node.js"] },
+    { "id": "u12", "name": "Lisa Simpson", "role": "Software Intern", "skills": ["Python", "Git"], "experience": 0, "interests": ["Data Science", "Web Development", "Machine Learning"] }
+  ],
+  "projects": [
+    {
+      "id": "1",
+      "name": "Onboarding Redesign",
+      "description": "Revamp the new user onboarding flow for better engagement.",
+      "status": "In Progress",
+      "skills": ["React", "UX Design", "Figma"],
+      "assignedTo": ["u1", "u3"],
+      "startDate": "2024-07-15T10:00:00.000Z",
+      "endDate": null,
+      "phases": [
+        { "id": "p1-1", "name": "User Research", "description": "Conduct interviews and surveys with new users.", "status": "Completed" },
+        { "id": "p1-2", "name": "Wireframing & Prototyping", "description": "Create low-fidelity and high-fidelity mockups in Figma.", "status": "In Progress" },
+        { "id": "p1-3", "name": "Development", "description": "Implement the new UI components in React.", "status": "To Do" },
+        { "id": "p1-4", "name": "User Testing", "description": "Test the new flow with a beta group.", "status": "To Do" }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Q3 Marketing Campaign",
+      "description": "Plan and execute the marketing campaign for the third quarter.",
+      "status": "Not Started",
+      "skills": ["SEO", "Content Marketing", "Google Analytics"],
+      "assignedTo": [],
+      "startDate": null,
+      "endDate": null,
+      "phases": []
+    },
+    {
+      "id": "3",
+      "name": "API Performance Audit",
+      "description": "Investigate and improve critical API endpoint response times.",
+      "status": "Completed",
+      "skills": ["Node.js", "PostgreSQL", "Performance Testing"],
+      "assignedTo": ["u2", "u6"],
+      "startDate": "2024-06-01T10:00:00.000Z",
+      "endDate": "2024-06-25T17:00:00.000Z",
+      "phases": [
+        { "id": "p3-1", "name": "Initial Benchmarking", "description": "Measure current API response times under load.", "status": "Completed" },
+        { "id": "p3-2", "name": "Identify Bottlenecks", "description": "Analyze code and database queries for inefficiencies.", "status": "Completed" },
+        { "id": "p3-3", "name": "Implement Optimizations", "description": "Refactor code and optimize database queries.", "status": "Completed" }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Cloud Migration Strategy",
+      "description": "Develop a strategy to migrate on-premise servers to AWS.",
+      "status": "Not Started",
+      "skills": ["AWS", "Docker", "Terraform", "DevOps"],
+      "assignedTo": [],
+      "startDate": null,
+      "endDate": null,
+      "phases": []
+    }
+  ]
+}
